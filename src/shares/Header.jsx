@@ -131,8 +131,8 @@ const Header = () => {
             </button>
             {mobileAboutOpen && (
               <ul className="pl-4 mt-2 space-y-2 text-sm text-gray-600 border-l-2 border-red-500">
-                <li><Link href="#about" onClick={() => setIsOpen(false)} className="block hover:text-red-600">Company Profile</Link></li>
-                <li><Link href="#mission" onClick={() => setIsOpen(false)} className="block hover:text-red-600">Mission & Vision</Link></li>
+                <li><Link href="/company-profile" onClick={() => setIsOpen(false)} className="block hover:text-red-600">Company Profile</Link></li>
+                <li><Link href="/mission" onClick={() => setIsOpen(false)} className="block hover:text-red-600">Mission & Vision</Link></li>
               </ul>
             )}
           </div>
@@ -148,10 +148,10 @@ const Header = () => {
             </button>
             {mobileProductOpen && (
               <ul className="pl-4 mt-2 space-y-2 text-sm text-gray-600 border-l-2 border-red-500">
-                <li><Link href="#products" onClick={() => setIsOpen(false)} className="block hover:text-red-600">Power & Distribution Transformer</Link></li>
-                <li><Link href="#products" onClick={() => setIsOpen(false)} className="block hover:text-red-600">High Tension Switchgear</Link></li>
-                <li><Link href="#products" onClick={() => setIsOpen(false)} className="block hover:text-red-600">Low Tension Switchgear</Link></li>
-                <li><Link href="#products" onClick={() => setIsOpen(false)} className="block hover:text-red-600">Power Factor Improvement Plant</Link></li>
+                <li><Link href="/high-voltage-distribution-power-transformer" onClick={() => setIsOpen(false)} className="block hover:text-red-600">Power & Distribution Transformer</Link></li>
+                <li><Link href="/high-tension-switchgear" onClick={() => setIsOpen(false)} className="block hover:text-red-600">High Tension Switchgear</Link></li>
+                <li><Link href="/low-tension-switchgea" onClick={() => setIsOpen(false)} className="block hover:text-red-600">Low Tension Switchgear</Link></li>
+                <li><Link href="/power-factor-improvement-plant" onClick={() => setIsOpen(false)} className="block hover:text-red-600">Power Factor Improvement Plant</Link></li>
               </ul>
             )}
           </div>
@@ -160,7 +160,7 @@ const Header = () => {
             <Link href="/services" onClick={() => setIsOpen(false)} className="block hover:text-red-600">Services</Link>
           </li>
           <li>
-            <Link href="/contact" onClick={() => setIsOpen(false)} className="block hover:text-red-600">Contacts Us</Link>
+            {/* <Link href="/contact" onClick={() => setIsOpen(false)} className="block hover:text-red-600">Contacts Us</Link> */}
           </li>
         </ul>
       )}
