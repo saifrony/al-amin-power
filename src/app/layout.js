@@ -15,8 +15,8 @@ const ptSans = PT_Sans({
 
 export const metadata = {
   title: "Al-Amin Power Engineering",
-  description: "Manufacturer of Power & Distribution Transformer, H.T. & L.T. Switchgear, P.F.I Plant, and supplier of heavy industrial and mill machineries in Bangladesh since 1959.",
-};
+  description: "Manufacturer of Power Transformers, Switchgears, P.F.I Plants and industrial machinery in Bangladesh."
+}
 
 export default function RootLayout({ children }) {
   return (
